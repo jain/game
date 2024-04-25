@@ -264,9 +264,9 @@ function score() {
 /* ----- STYLE ----- */
 function colorSet(value, tile) {
   switch(value) {
-    case 2:    tile.style.background = 'url("images/1.jpg")'; tile.style.color = 'black'; break;
-    case 4:    tile.style.background = 'url("images/2.jpg")'; tile.style.color = 'black'; break;
-    case 8:    tile.style.background = 'url("images/4.jpg")'; tile.style.color = 'black'; break;
+    case 2:    tile.style.background = 'url("images/1.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
+    case 4:    tile.style.background = 'url("images/2.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
+    case 8:    tile.style.background = 'url("images/4.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
     case 16:   tile.style.background = '#ff7373'; tile.style.color = 'black'; break;
     case 32:   tile.style.background = '#f6546a'; tile.style.color = 'white'; break;
     case 64:   tile.style.background = '#8b0000'; tile.style.color = 'white'; break;
