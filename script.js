@@ -264,16 +264,16 @@ function score() {
 /* ----- STYLE ----- */
 function colorSet(value, tile) {
   switch(value) {
-    case 2:    tile.style.background = 'url("images/1.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
-    case 4:    tile.style.background = 'url("images/2.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
-    case 8:    tile.style.background = 'url("images/3.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
-    case 16:    tile.style.background = 'url("images/4.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
-    case 32:    tile.style.background = 'url("images/5.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
-    case 64:    tile.style.background = 'url("images/6.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
-    case 128:    tile.style.background = 'url("images/7.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
-    case 256:    tile.style.background = 'url("images/8.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
-    case 512:    tile.style.background = 'url("images/9.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
-    case 1024:    tile.style.background = 'url("images/10.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'black'; break;
+    case 2:    tile.style.background = 'url("images/1.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'white'; break;
+    case 4:    tile.style.background = 'url("images/2.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'white'; break;
+    case 8:    tile.style.background = 'url("images/3.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'white'; break;
+    case 16:    tile.style.background = 'url("images/4.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'white'; break;
+    case 32:    tile.style.background = 'url("images/5.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'white'; break;
+    case 64:    tile.style.background = 'url("images/6.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'white'; break;
+    case 128:    tile.style.background = 'url("images/7.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'white'; break;
+    case 256:    tile.style.background = 'url("images/8.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'white'; break;
+    case 512:    tile.style.background = 'url("images/9.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'white'; break;
+    case 1024:    tile.style.background = 'url("images/10.jpg")'; tile.style.backgroundSize = 'cover'; tile.style.color = 'white'; break;
     case 2048: tile.style.background = '#1C9F4E'; tile.style.color = 'white'; 
                tile.style.fontSize = '40px'; 
                document.getElementById('status').className = 'won'; break;
